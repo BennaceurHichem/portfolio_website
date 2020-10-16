@@ -5,57 +5,63 @@ import Bar from './Bar';
 
 const languages = [
     {
-        icon: python,
-        name: 'Python',
-        level: '45'
-    },
-    {
         icon: react,
-        name: 'Java',
-        level: '60'
-    },
-    {
-        icon: react,
-        name: 'HTML',
+        name: 'React',
         level: '80'
     },
+
     {
         icon: react,
-        name: 'react',
+        name: 'React Native',
         level: '60'
+    },
+    {
+        icon: react,
+        name: 'Node.js',
+        level: '70'
+    },
+    {
+        icon: react,
+        name: 'Android',
+        level: '70'
+    },
+    {
+        icon: react,
+        name: 'Ecommerce & Digital marketing',
+        level: '90'
     },
     {
         icon: react,
         name: 'Django',
-        level: '80'
+        level: '50'
     },
     {
         icon: react,
-        name: 'Bootstrap',
-        level: '80'
+        name: 'Agile Development',
+        level: '75'
     }
 ]
 
 const tools = [
     {
         icon: react,
-        name: 'Figma',
-        level: '85'
+        name: 'VS Code ',
+        level: '90'
     },
     {
         icon: react,
-        name: 'Photoshop',
-        level: '45'
+        name: 'Software Architecure ',
+        level: '70'
     },
     {
         icon: react,
-        name: 'Illustrator',
+        name: 'Software Conception',
         level: '60'
     },
     {
         icon: react,
         name: 'Framer',
-        level: '45'
+        level: '60'
     },
 
 ]
@@ -71,12 +77,12 @@ const Resume = () => {
                     </h4>
                     <div className="resume-card__body">
                         <h5 className="resume-card__title">
-                            Computer Science Enginnering
+                            Computer Science Enginnering Higher school
                         </h5>
                         <p className="resume-card__name">
-                            Academy of Technology(2017-2021)
+                            ESI(2016-2021)
                         </p>
-                        <p className="resume-card__details">I am currently persuing B.tech in Computer Science Engineering from Academy of Technology</p>
+                        <p className="resume-card__details">I am currently persuing an engineering degree  in Computer Science  at ESI in algiers, Algeria</p>
                     </div>
                 </div>
                 <div className="col-lg-6 resume-card" >
@@ -88,9 +94,9 @@ const Resume = () => {
                             Intern
                         </h5>
                         <p className="resume-card__name">
-                            TCS (2020)
+                          YASSIR(2019)
                         </p>
-                        <p className="resume-card__details">I work as a intern in TCS and also completed some projects on testing</p>
+                        <p className="resume-card__details">I work as a intern at YASSIR for 2 months </p>
                     </div>
                 </div>
             </div>
@@ -98,7 +104,7 @@ const Resume = () => {
             <div className="row">
                 <div className="col-lg-6 resume-languages">
                     <h5 className="reume-language__heading">
-                        Language and Framework
+                        Language and Frameworks
                     </h5>
                     <div className="resume-language__body mt-3">
                         {
@@ -110,7 +116,7 @@ const Resume = () => {
                 </div>
                 <div className="col-lg-6 resume-languages">
                     <h5 className="reume-language__heading">
-                        Tools and Softwares
+                       Skills 
                     </h5>
                     <div className="resume-language__body mt-3">
                         {

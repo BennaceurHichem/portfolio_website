@@ -15,9 +15,9 @@ const Projects = () => {
             <div className="projects__navbar">
                 <div onClick={() => setProjects(data_projects)}>All</div>
                 <div onClick={() => handleFilterCategory('react.js')}>React</div>
-                <div onClick={() => handleFilterCategory('mongoDB')}>MongoDB</div>
+                <div onClick={() => handleFilterCategory('MERN stack')}>MongoDB</div>
                 <div onClick={() => handleFilterCategory('node.js')}>Node</div>
-                <div onClick={() => handleFilterCategory('vanilla')}>Vanilla</div>
+                <div onClick={() => handleFilterCategory('Android')}>Vanilla</div>
             </div>
             <div className="row">
 

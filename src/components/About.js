@@ -12,32 +12,33 @@ const skills = [
     {
         icon: computer,
         title: "Frontend Development",
-        about: "I can build a beautiful and scalable SPA using HTML, CSS and React.js"
+        about: "I can build a beautiful and scalable SPA using HTML, CSS and React.js, and convert them to PWA applications also "
     },
     {
         icon: repair,
         title: "Backend  Development",
-        about: "handle database, server, api using and SQLlite",
-    },
-    {
-        icon: api,
-        title: "API Development",
-        about: "I can develop robust REST API using django-rest-api "
-    },
-    {
-        icon: algo,
-        title: "Competitive Coder",
-        about: "a daily problem solver in HackerRank and Leetcode"
+        about: "handle database, server, api using, with Node.js,I can develop  REST API using Node.js, or use some trendy technologies and CMS's like Strapi",
     },
     {
         icon: puzzle,
-        title: "UI/UX designer",
-        about: "minimalistic user interface designer using figma and  framer"
+        title: "Mobile developer",
+        about: "I worked on android native an React native mobile Apps" 
+    },
+   
+    {
+        icon: algo,
+        title: "Cloud and DevOps enthusiast  ",
+        about: "I'm interesting in DevOps tools like Kubernetes, Docker, mainly in the cloud like AWS and GCP"
+    },
+    {
+        icon: api,
+        title: "Agile and Software product managment",
+        about: "I got 2 certificates of software product mangment, I worked on a real project as scrum master in a team of interns at YA technologies, I have a strong understanding of agile scrum mathodology  "
     },
     {
         icon: computer,
-        title: "Whatever",
-        about: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!"
+        title: "Ecommerce and Social Media Advertising ",
+        about: "I have a strong understanding of Digital marketing and Ecommerce, I developed and managed a store for a small company with a big budget for 1 year, I'm skillfull also in building Shopify, Ecwid or Woocommerce Ecommerce websites  "
     },
 ]
 
@@ -46,8 +47,8 @@ const About = () => {
     return (
         <div className="about">
             <h6 className="about__intro">
-                I describe myself as someone who's persistant, a quick learner and loves problem solving by using simple and scalable solutions.
-            </h6>
+            I'm Hichem👋, 22 years old software engineering student, AWS Ambassador student, enjoying solving and implementing ideas, highly motivated to develop my skills in software engineering in general, 
+            and AWS cloud development enthusiast            </h6>
             <div className="container about__container">
                 <h6 className="about__heading">What I offer</h6>
                 <div className="row">

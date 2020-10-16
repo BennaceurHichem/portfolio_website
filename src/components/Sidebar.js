@@ -6,7 +6,12 @@ import github from '../assets/icons/github.svg'
 import pin from '../assets/icons/pin.svg'
 import tie from '../assets/icons/tie.svg'
 import mightycoder from '../assets/mightycoder.svg'
+import gmail from '../assets/icons/gmail.svg'
 import resume from '../assets/resume.pdf'
+import linkedin from '../assets/icons/linkedin.svg'
+import medium from '../assets/icons/medium.svg'
+import twitter from '../assets/icons/twitter.svg'
+import phone from '../assets/icons/phone-call.svg'
 
 const Sidebar = () => {
     const handleEmailMe = () => {
@@ -23,18 +28,23 @@ const Sidebar = () => {
                 </div>
             </a>
             <figure className="sidebar__social-icons my-2">
-                <a href="!#"><img src={facebook} alt="facebook" className="sidebar__icon mr-3" /></a>
-                <a href="!#"><img src={instagram} alt="instagram" className="sidebar__icon" /></a>
+                <a href="https://medium.com/@hichampredator"><img src={medium} alt="facebook" className="sidebar__icon mr-3" /></a>
+                <a href="https://twitter.com/BennaceurHichem"><img src={twitter} alt="facebook" className="sidebar__icon mr-3" /></a>
+                <a href="https://www.linkedin.com/in/hichem-bennaceur-335659147/"><img src={linkedin} alt="Linkedin" className="sidebar__icon mr-3" /></a>
+                <a href="https://github.com/BennaceurHichem"><img src={github} alt="Github" className="sidebar__icon mr-3" /></a>
+
             </figure>
             <div className="sidebar__contact">
-                <div className="sidebar__item sidebar__github">
-                    <a href="https://github.com/BennaceurHichem"><img src={github} alt="github" className="sidebar__icon mr-3" />github</a>
-                </div>
-                <div className="sidebar__location">
+
+                <div className="sidebar__item">
                     <img src={pin} alt="location" className="sidebar__icon mr-3" />
                     Algiers, Algeria</div>
-                <div className="sidebar__item">gh_bennaceur@esi.dz</div>
-                <div className="sidebar__item">+213781323567</div>
+                <div className="sidebar__item">                   
+                 <img src={gmail} alt="location" className="sidebar__icon mr-3" />
+gh_bennaceur@esi.dz</div>
+                <div className="sidebar__item">           
+                      <img src={phone} alt="location" className="sidebar__icon mr-3" />
+            +213781323567</div>
             </div>
             <div className="sidebar__item sidebar__email" onClick={handleEmailMe}>Email me</div>
         </div>

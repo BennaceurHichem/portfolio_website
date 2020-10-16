@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:wght@300&display=swap');
 
 body {
-    background-image: linear-gradient(to right bottom, #00F260, #0575E6);
+    background-image: linear-gradient(to right bottom, #000428, #004e92);
     background-attachment: fixed;
     color: #354538;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 ::-webkit-scrollbar {
@@ -11,7 +13,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-image: linear-gradient(to right bottom, #00F260, #0575E6);
+    background-image: linear-gradient(to right bottom, #000428, #004e92);
 
 }
 
@@ -73,7 +75,7 @@ a:hover {
 }
 
 .sidebar__name>span {
-    color: #00F260;
+    color: #000000;
 }
 
 .sidebar__item {
@@ -87,12 +89,16 @@ a:hover {
 .sidebar__title {
     background-color: #f1f1f1;
     border-radius: 30px;
+    
 }
 
 .sidebar__contact {
     background-color: #dbdddf;
     padding: 2px 0;
     margin: 20px -15px;
+    justify-items: left;
+    align-items: flex-start;
+    display: inline;
 
 }
 
@@ -221,15 +227,20 @@ a:hover {
 
 .resume-card__title {
     font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .resume-card__name {
     font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 .resume-card__details {
     font-size: 0.9rem;
     padding-top: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 /* bar */
@@ -292,6 +303,8 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 .projects__navbar {
